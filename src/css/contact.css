@@ -1,0 +1,205 @@
+.contact__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 82px);
+}
+.contact__block .social__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 12%;
+}
+.social__block a.social {
+    color: var(--icon);
+    font-size: 20px;
+    margin: 15px 0;
+}
+.social__block a.social:hover {
+    color: var(--contact-btn);
+}
+
+.contact__block .contact__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid var(--icon);
+    border-right: 2px solid var(--icon);
+    height: 100%;
+    border-radius: 10px;
+    padding: 0 5%;
+    color: var(--text);
+}
+.contact__container .left__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'roboto-regular';
+}
+.left__contact .contact__title {
+    font-family: 'roboto-black';
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+.left__contact .contact__text {
+    font-family: 'roboto-light';
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.left__contact .contact__other {
+    font-family: 'roboto-black';
+    font-size: 28px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+}
+.left__contact .contact__discription {
+    font-family: 'roboto-light';
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.contact__container .center__block {
+    position: absolute;
+    background-image: url(../img/line.svg);
+    background-size: cover;
+    background-position: 0 0;
+    width: 10.4%;
+    height: calc(100vh - 82px);
+    z-index: 3;
+}
+
+.contact__container .right__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'roboto-regular';
+}
+.right__contact form.form__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.right__contact form.form__contact span.contact__form__title {
+    font-family: 'roboto-bold';
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+}
+.right__contact form.form__contact .email__block {
+    display: flex;
+    width: 100%;
+    border: 1px solid var(--text);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+form.form__contact .email__block i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+form.form__contact .email__block input {
+    width: 100%;
+    color: var(--text);
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+}
+form.form__contact .email__block input::placeholder {
+    color: var(--contact-text);
+}
+form.form__contact .email__block input:focus {
+    border: none;
+    outline: none;
+}
+.right__contact form.form__contact .phone__block {
+    display: flex;
+    width: 100%;
+    border: 1px solid var(--text);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+form.form__contact .phone__block i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+form.form__contact .phone__block input {
+    width: 100%;
+    color: var(--text);
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+}
+form.form__contact .phone__block input::placeholder {
+    color: var(--contact-text);
+}
+form.form__contact .phone__block input:focus {
+    border: none;
+    outline: none;
+}
+.right__contact form.form__contact .name__block {
+    display: flex;
+    width: 100%;
+    border: 1px solid var(--text);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+form.form__contact .name__block input {
+    width: 100%;
+    color: var(--text);
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+}
+form.form__contact .name__block input::placeholder {
+    color: var(--contact-text);
+}
+form.form__contact .name__block input:focus {
+    border: none;
+    outline: none;
+}
+.right__contact form.form__contact textarea.text__block {
+    display: flex;
+    width: 100%;
+    border: 1px solid var(--text);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: var(--text);
+    resize: vertical;
+    max-height: 130px;
+    min-height: 80px;
+}
+.right__contact form.form__contact textarea.text__block::placeholder {
+    color: var(--contact-text);
+    font-size: 14px;
+    font-family: 'roboto-regular';
+}
+.right__contact form.form__contact button.contact__btn {
+    width: 105%;
+    padding: 10px;
+    background-color: var(--card-bg);
+    border: 2px solid var(--card-text);
+    border-radius: 10px;
+    color: var(--text);
+    font-family: 'roboto-black';
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.right__contact form.form__contact button.contact__btn:hover {
+    background-color: var(--contact-btn);
+}

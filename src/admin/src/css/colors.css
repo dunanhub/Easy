@@ -1,0 +1,22 @@
+:root {
+    --text: #fff;
+    --text-nav: rgba(255, 255, 255, 0.8);
+    --text-opacity: rgba(255, 255, 255, 0.6);
+    --icon: #fff;
+    --icon-opacity: rgba(255, 255, 255, 0.6);
+    --icon-border: rgba(255, 255, 255, 0.6);
+    --icon-hover: rgba(255, 255, 255, 0.4);
+    --icon-nav: rgba(255, 255, 255, 0.8);
+    --bg: #000;
+    --bg-opacity: rgba(0, 0, 0, 0.5);
+    --bg-white: rgba(255, 255, 255, 0.4);
+    --bg-nav: rgba(255, 255, 255, 0.1);
+    --bg-nav-active: rgba(255, 255, 255, 0.2);
+    --bg-title: rgba(255, 255, 255, 0.2);
+    --btn-white-active: rgba(255, 255, 255, 0.7);
+    --main-btn: #1D82FB;
+    --delete-btn: #E71E44;
+    --save-btn: #14AE5C;
+    --nav-active-border: #1D82FB;
+    --border-nav: rgba(255, 255, 255, 0.4);
+}

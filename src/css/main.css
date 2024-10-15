@@ -1,0 +1,26 @@
+/* Import fonts */
+@import url(../fonts/fonts.css);
+
+/* Import colors */
+@import url(colors.css);
+
+/* Import all css */
+@import url(header.css);
+@import url(home.css);
+@import url(about.css);
+@import url(hotels.css);
+@import url(contact.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: 0 0;
+}

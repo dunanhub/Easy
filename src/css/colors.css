@@ -1,0 +1,10 @@
+/* add colors */
+:root {
+    --text: #fff;
+    --text-nav: rgba(255, 255, 255, 0.6);
+    --icon: #fff;
+    --contact-btn: #FF9D00;
+    --contact-text: #B5B5B5;
+    --card-text: #653780;
+    --card-bg: rgba(101, 55, 128, 0.42);
+}

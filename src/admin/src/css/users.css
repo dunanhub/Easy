@@ -1,0 +1,96 @@
+.users__block {
+    background-color: var(--bg-opacity);
+    border: 2px solid var(--text);
+    border-radius: 20px;
+    margin-left: -80px;
+}
+.users__block .users__title__block {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: var(--bg-nav-active);
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.users__title__block span.users__title__text {
+    font-size: 22px;
+}
+.users__title__block span.users__title__text:nth-child(1) {
+    margin-right: 30px;
+}
+.users__title__block span.users__title__text:nth-child(2) {
+    margin-right: 120px;
+}
+.users__title__block span.users__title__text:nth-child(3) {
+    margin-right: 230px;
+}
+.users__title__block span.users__title__text:nth-child(4) {
+    margin-right: 130px;
+}
+
+.users__block .users__list__block {
+    padding: 10px 35px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+.users__block .users__list__block::-webkit-scrollbar {
+    width: 10px;
+}
+.users__block .users__list__block::-webkit-scrollbar-track {
+    background: var(--bg-white); 
+    /* border-bottom-right-radius: 100px; */
+    margin-bottom: 15px;
+}
+.users__block .users__list__block::-webkit-scrollbar-thumb {
+    background: var(--main-btn);
+    /* border-radius: 100px; */
+    /* border-bottom: 5px solid #ffffff8f; */
+}
+.users__list__block .user__container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 18px;
+    color: var(--text-opacity);
+    text-align: left;
+    margin: 15px 0;
+}
+.user__container span.user__text:nth-child(1) {
+    display: block;
+    width: 25px;
+}
+.user__container span.user__text:nth-child(2) {
+    display: block;
+    width: 150px;
+    margin: 0 10px;
+}
+.user__container span.user__text:nth-child(3) {
+    display: block;
+    margin: 0 10px;
+    width: 300px;
+}
+.user__container span.user__text:nth-child(4) {
+    display: block;
+    margin: 0 10px;
+    width: 200px;
+}
+.user__container span.user__text:nth-child(5) {
+    display: block;
+    width: 150px;
+    margin: 0 10px;
+}
+.user__container a.edit__btn {
+    padding: 5px 15px;
+    color: var(--main-btn);
+    background: var(--btn-white-active);
+    font-family: 'roboto-bold';
+    font-size: 16px;
+    border: 2px solid var(--main-btn);
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.user__container a.edit__btn:hover {
+    background-color: var(--main-btn);
+    color: var(--text);
+}
